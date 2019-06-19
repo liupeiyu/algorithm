@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="163c7dfa-90f2-482c-a6bd-9077c1a00fcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StringSubject/StringSubject.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StringSubject/readme/descriptions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubjectOne/Subject.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiyanlou/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiyanlou/node/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiyanlou/readme/descriptions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiyanlou/stack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiyanlou/stack/stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiyanlou/stack/work.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringSubject/SubjectOne/Subject.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringSubject/SubjectOne/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubjectOne/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringSubject/1-StringSubject.py" beforeDir="false" afterPath="$PROJECT_DIR$/StringSubject/1-StringSubject.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,14 +14,15 @@
     <SUITE FILE_PATH="coverage/algorithm$Subject.coverage" NAME="Subject Coverage Results" MODIFIED="1560480066700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringSubject/SubjectOne" />
     <SUITE FILE_PATH="coverage/algorithm$work.coverage" NAME="work Coverage Results" MODIFIED="1560941954750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringSubject/shiyanlou/stack" />
     <SUITE FILE_PATH="coverage/algorithm$stack.coverage" NAME="stack Coverage Results" MODIFIED="1560941718562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringSubject/shiyanlou/stack" />
+    <SUITE FILE_PATH="coverage/algorithm$1_StringSubject.coverage" NAME="1-StringSubject Coverage Results" MODIFIED="1560944773951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringSubject" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StringSubject/StringSubject.py">
+        <entry file="file://$PROJECT_DIR$/StringSubject/1-StringSubject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="214">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -95,6 +85,7 @@
         <option value="$PROJECT_DIR$/shiyanlou/descriptions.txt" />
         <option value="$PROJECT_DIR$/StringSubject/descriptions.txt" />
         <option value="$PROJECT_DIR$/StringSubject/StringSubject.py" />
+        <option value="$PROJECT_DIR$/StringSubject/1-StringSubject.py" />
       </list>
     </option>
   </component>
@@ -119,11 +110,6 @@
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="StringSubject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,7 +146,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.work">
+  <component name="RunManager" selected="Python.1-StringSubject">
+    <configuration name="1-StringSubject" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StringSubject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StringSubject/1-StringSubject.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Subject" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,6 +237,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1-StringSubject" />
         <item itemvalue="Python.work" />
         <item itemvalue="Python.stack" />
         <item itemvalue="Python.Subject" />
@@ -247,12 +256,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560252772391</updated>
       <workItem from="1560252773671" duration="2857000" />
-      <workItem from="1560859195697" duration="2777000" />
+      <workItem from="1560859195697" duration="4056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5634000" />
+    <option name="totallyTimeSpent" value="6913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="31" width="1618" height="947" extended-state="0" />
@@ -262,8 +271,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3797314" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3797314" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,7 +281,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28601694" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2857143" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -328,10 +337,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StringSubject/StringSubject.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/collections/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="560">
+          <caret line="1217" column="8" selection-start-line="1217" selection-start-column="8" selection-end-line="1217" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringSubject/1-StringSubject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>

@@ -36,13 +36,26 @@ Not necessary. When you meet this problem in a real interview, the interviewer m
 而更为高效的方案则为仅遍历源字符串中有可能和目标字符串匹配的部分索引。
 
 '''
-class Solutions():
-    def strCmpare(self,source,target):
-        if source==None:
+#method 1
+class Solution:
+    def strStr(self, source, target):
+        if source is None or target is None:
             return -1
-        if source==None and target==None:
-            return 1
 
+        for i in range(len(source) - len(target) + 1):
+            for j in range(len(target)):
+                if source[i + j] != target[j]:
+                    break
+            else:  # no break
+                return i
+        return -1
+
+if __name__ == '__main__':
+
+    s=Solution()
+    source="abcdefgde"
+    target="defg"
+    print(s.strStr(source,target))
 
 
 
